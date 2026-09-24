@@ -1,0 +1,12 @@
+.venv/
+__pycache__/
+*.pyc
+*.log
+.env
+item_master.csv
+# Temporary files and uploads
+uploads/
+tmp/
+temp/
+*.pdf
+*.csv

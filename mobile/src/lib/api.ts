@@ -7,7 +7,7 @@ const getBaseUrl = () => {
  // and in eas.json env block (for EAS cloud APK builds).
  // Fallback is the production Vercel URL so the app NEVER
  // falls back to localhost — works everywhere without changes.
- return process.env.EXPO_PUBLIC_API_URL || 'https://nexware-backend.up.railway.app';
+ return process.env.EXPO_PUBLIC_API_URL || 'https://web-production-153cb.up.railway.app';
 };
 
 const baseURL = getBaseUrl();
